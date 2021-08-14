@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageGroup Include="Microsoft.EntityFrameworkCore.SqlServer" Version="1.1.0"/>
+    <PackeReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.0-preview3-35497"/>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.1.0-preview1-final"/>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.1.0-preview1-final"/>
+  </ItemGroup>
+</Project>
